@@ -11,27 +11,27 @@ const Post = require('../model/post');
 
 //dummy data:
 let usersData = [
-  { id: "1", name: "Bond", professional: 'doctor', age: 36 },
-  { id: "13", name: "Anna", professional: 'Electrical Engineer', age: 26 },
-  { id: "211", name: "Bella", professional: 'Software Developer', age: 16 },
-  { id: "19", name: "Gina", professional: 'Nurse', age: 26 },
-  { id: "150", name: "Georgina", professional: 'Data Scientist', age: 36 }
+  { id: "1", name: "Bond", professional: "doctor", age: 36 },
+  { id: "13", name: "Anna", professional: "Electrical Engineer", age: 26 },
+  { id: "211", name: "Bella", professional: "Software Developer", age: 16 },
+  { id: "19", name: "Gina", professional: "Nurse", age: 26 },
+  { id: "150", name: "Georgina", professional: "Data Scientist", age: 36 }
 ];
 //dummy Hobbies:
 let hobbiesData = [
-  { id: "21", title: "playing music", description: "I am a beginner harmonica player", userId: '1' },
-  { id: "22", title: "playing futsal", description: "I play futsal once a week", userId: '13' },
-  { id: "23", title: "coding", description: "I like to code", userId: '13' },
-  { id: "24", title: "eating", description: "food is my life", userId: '19' },
-  { id: "25", title: "eating", description: "food is my life", userId: '150' },
+  { id: "21", title: "playing music", description: "I am a beginner harmonica player", userId: "1" },
+  { id: "22", title: "playing futsal", description: "I play futsal once a week", userId: "13" },
+  { id: "23", title: "coding", description: "I like to code", userId: "13" },
+  { id: "24", title: "eating", description: "food is my life", userId: "19" },
+  { id: "25", title: "Reading", description: "Book is my life", userId: "150" },
 ];
 //dummy Post:
 let postData = [
-  { id: "31", comment: "I like Emmily", userId: '13' },
-  { id: "32", comment: "I can make her happy", userId: '13' },
-  { id: "33", comment: "She is cute", userId: '211' },
-  { id: "34", comment: "She will reply me back", userId: '19' },
-  { id: "35", comment: "She is a whore", userId: '150' },
+  { id: "31", comment: "I like Emmily", userId: "13" },
+  { id: "32", comment: "I can make her happy", userId: "13" },
+  { id: "33", comment: "She is cute", userId: "211" },
+  { id: "34", comment: "She will reply me back", userId: "19" },
+  { id: "35", comment: "She is not nice", userId: "150" },
 ]
 
 const {
