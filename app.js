@@ -36,7 +36,7 @@ app.use('/', graphqlHTTP({
   graphiql: true,
   schema
 }))
-http://localhost:4000/
+
 
 app.listen(process.env.PORT || 4000, () => { //localhost: 4000
   console.log("listening for Request on port 4000");
